@@ -23,7 +23,7 @@ const allowedOrigins = [
   'http://127.0.0.1:3001',
   'https://sneaker-store-lake-nine.vercel.app', // Vercel frontend
   'https://sneaker-store-frontend-navy.vercel.app', 
-  'https://sneaker-store-app-three.vercel.app/',
+  'https://sneaker-store-app-three.vercel.app',
   process.env.FRONTEND_URL, // Render/other frontend URL
   process.env.CORS_ORIGIN // Alternative environment variable
 ].filter(Boolean); // Remove undefined values
