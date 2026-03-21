@@ -25,6 +25,7 @@ const allowedOrigins = [
   'https://sneaker-store-frontend-navy.vercel.app', 
   'https://sneaker-store-app-three.vercel.app',
   'https://sneaker-hub-ecommerce.vercel.app/',
+  'https://sneaker-store-app-three.vercel.app/',
 
   process.env.FRONTEND_URL, // Render/other frontend URL
   process.env.CORS_ORIGIN // Alternative environment variable
